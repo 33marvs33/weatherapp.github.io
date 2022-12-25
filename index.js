@@ -55,7 +55,7 @@ function display(val) {
     document.querySelector('.temperature').innerHTML = `${temp}°C`
 
     document.querySelector('.temperature').addEventListener('click', () => {
-        document.querySelector('.temperature').innerHTML = temp * 9 / 5 + 32 + '°F';
+        document.querySelector('.temperature').innerHTML =  Math.floor(temp * 9 / 5 + 32) + '°F';
 
         setTimeout(change, 3000);
 
