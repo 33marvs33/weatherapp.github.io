@@ -7,38 +7,38 @@ const searchInput = document.querySelector('#input');
 
 window.addEventListener('load', () => {
    
-   const randomPic = Math.floor(Math.random() * 7) + 1
+   const randomPic = Math.floor(Math.random() * 13) + 1
 
     switch(randomPic) {
         case 3:
-             document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'yellow'
-            document.body.style.color = 'OrangeRed'
+             document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'yellow';
+            document.body.style.color = 'OrangeRed';
             break;
         case 4:
-             document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'white'
-            document.querySelector('.container').style.boxShadow = '0px 5px 20px wheat'
+             document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'white';
+            document.querySelector('.container').style.boxShadow = '0px 5px 20px wheat';
             break;
         case 5:
-             document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'wheat'
+             document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'wheat';
             break;
         case 6: 
-            document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'Lime'
+            document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'Lime';
             break;
         case 7:
-            document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'GreenYellow'
+            document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'GreenYellow';
             break;
         case 9:
-             document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'wheat'
+             document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'wheat';
             break;
         default:
-            document.body.background = `${randomPic}.jpg`
-            document.body.style.color = 'black'
+            document.body.background = `${randomPic}.jpg`;
+            document.body.style.color = 'black';
 
     }
    
