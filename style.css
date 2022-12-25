@@ -66,3 +66,187 @@ form .btn {
     font-size: 1rem;
 }
 
+@media (max-width: 1400px) {
+    .container {
+        width: 40%;
+        box-shadow: 0 0 20px beige;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    form {
+        width: 70%;
+    }
+}
+
+@media (max-width:1264px) {
+    .city {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .temperature {
+        font-size: 4rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .weather {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .date {
+        font-size: 1rem;
+    }
+}
+@media (max-width:1195px) {
+    .city {
+        font-size: 2.2rem;
+        font-weight: 300;
+    }
+    .temperature {
+        font-size: 3.5rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .weather {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .date {
+        font-size: .8rem;
+    }
+    form {
+        width: 80%;
+        flex-direction: column;
+        margin: 1rem auto;
+        gap: 10px;
+    }
+
+    /* form input[type="text"] {
+        flex: 1;
+        outline: none;
+        padding: .5rem;
+        border-radius: .5rem;
+        border: none;
+    } */
+    form .btn {
+        border: none;
+        border-radius: .5rem;
+        margin-left: 0;
+        cursor: pointer;
+        width: 8rem;
+        padding: 10px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:956px) {
+    .city {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .temperature {
+        font-size: 3rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .weather {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .date {
+        font-size: .8rem;
+    }
+    form {
+        width: 80%;
+        flex-direction: column;
+        margin: 1rem auto;
+        gap: 10px;
+    }
+
+    /* form input[type="text"] {
+        flex: 1;
+        outline: none;
+        padding: .5rem;
+        border-radius: .5rem;
+        border: none;
+    } */
+    form .btn {
+        border: none;
+        border-radius: .5rem;
+        margin-left: 0;
+        cursor: pointer;
+        width: 8rem;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .container {
+        width: 50%;
+        box-shadow: 0 0 20px beige;
+        margin: 2rem auto;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+
+@media (max-width:700px) {
+    .container {
+        width: 70%;
+        box-shadow: 0 0 20px beige;
+        margin: 2rem auto;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
+@media (max-width:500px) {
+    .container {
+        width: 70%;
+        box-shadow: 0 0 20px beige;
+        margin: 2rem auto;
+        padding: .5rem;
+        border-radius: 1rem;
+    }
+    .city {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .temperature {
+        font-size: 2rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .weather {
+        font-size: .8rem;
+        font-weight: 300;
+    }
+    .date {
+        font-size: .6rem;
+    }
+}
+
+@media (max-width:375px) {
+    .container {
+        width: 90%;
+        box-shadow: 0 0 20px beige;
+        margin: 2rem auto;
+        padding: .5rem;
+        border-radius: 1rem;
+    }
+    .city {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .temperature {
+        font-size: 2rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .weather {
+        font-size: .8rem;
+        font-weight: 300;
+    }
+    .date {
+        font-size: .6rem;
+    }
+}
+
